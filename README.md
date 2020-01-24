@@ -27,7 +27,7 @@ Realizado por Carlos Andrés Castañeda y Luis Alejandro Jaramillo
    ```
  * Change the beginning with **start()** to **run()**. How does the output change? Why?
  
-   * Cunado implementamos el metodo **start()**, La salida imprime en desorden, esto se debe a que el metodo crea un hilo por cada implementación, mientras que el metodo **run()** ejecuta los metodos por orden de ejecución.
+   * Cuando implementamos el metodo **start()**, La salida imprime en desorden, esto se debe a que el metodo crea un hilo por cada implementación, mientras que el metodo **run()** ejecuta los metodos por orden de ejecución.
    
 ### Compile and run instructions
 
