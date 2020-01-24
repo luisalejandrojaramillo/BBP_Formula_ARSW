@@ -35,9 +35,15 @@ From the above, implement the following sequence of experiments to calculate the
 
 **1.** Single thread.
 
+![](/img/Imagen1.png)
+
 **2.** As many threads as processing cores (have the program determine this using the Runtime API). 
 
-**3.** So many threads as double processing cores. 
+![](/img/Imagen2.png)
+
+**3.** So many threads as double processing cores.
+
+![](/img/Imagen3.png)
 
 **4.** 200 threads.
 
