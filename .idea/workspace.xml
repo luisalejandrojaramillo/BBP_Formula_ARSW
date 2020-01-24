@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="148b3aca-01c4-4df6-b601-b84a24f14232" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/math/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/math/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/math/PiDigits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/math/PiDigits.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/math/PiThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/math/PiThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/threads/CountThreadsMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/threads/CountThreadsMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/eci/arsw/math/PiCalcTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/eci/arsw/math/PiCalcTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/math/PiThread.java" beforeDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/classes/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,55 +17,6 @@
   <component name="DefaultGradleProjectSettings">
     <option name="testRunner" value="GRADLE" />
     <option name="delegatedBuild" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/eci/arsw/threads/CountThread.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/eci/arsw/math/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/edu/eci/arsw/math/PiCalcTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="48" column="9" lean-forward="true" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/eci/arsw/math/PiDigits.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="51" column="62" lean-forward="true" selection-start-line="51" selection-start-column="62" selection-end-line="51" selection-end-column="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/eci/arsw/math/PiThread.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="26" column="34" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -81,107 +28,33 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/eci/arsw/math/PiThread.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/eci/arsw/threads/CountThreadsMain.java" />
-        <option value="$PROJECT_DIR$/src/test/java/edu/eci/arsw/math/PiCalcTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/eci/arsw/math/PiDigits.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/eci/arsw/math/Main.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="496" />
-    <option name="y" value="49" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
-  </component>
+  <component name="ProjectId" id="1WoiXHyAv38odeZjCNgIcVEQoq2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="PiDigits" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BBP_Formula_ARSW" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PiDigits" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BBP_Formula_ARSW" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PiDigits" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BBP_Formula_ARSW" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PiDigits" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BBP_Formula_ARSW" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PiDigits" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BBP_Formula_ARSW" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="arsw" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PiDigits" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BBP_Formula_ARSW" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="arsw" type="462c0819:PsiDirectoryNode" />
-              <item name="math" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PiDigits" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BBP_Formula_ARSW" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="arsw" type="462c0819:PsiDirectoryNode" />
-              <item name="threads" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/edu/eci/arsw" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="CountThreadsMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.eci.arsw.threads.CountThreadsMain" />
+      <module name="PiDigits" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.eci.arsw.threads.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="edu.eci.arsw.math.Main" />
       <module name="PiDigits" />
@@ -198,8 +71,21 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.CountThreadsMain" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -223,94 +109,30 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17857143" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32936078" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30985916" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3298731" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/eci/arsw/threads/CountThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="745" column="16" selection-start-line="745" selection-start-column="16" selection-end-line="745" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/eci/arsw/threads/CountThreadsMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/edu/eci/arsw/math/PiCalcTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="48" column="9" lean-forward="true" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/eci/arsw/math/PiDigits.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="51" column="62" lean-forward="true" selection-start-line="51" selection-start-column="62" selection-end-line="51" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/eci/arsw/math/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/eci/arsw/math/PiThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="26" column="34" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="421" y="138" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1579827622998">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="421" y="138" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.768@0.0.1366.768" timestamp="1579827622998" />
+    <state width="1324" height="151" key="GridCell.Tab.0.bottom" timestamp="1579831262100">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1324" height="151" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1579831262100" />
+    <state width="1324" height="151" key="GridCell.Tab.0.center" timestamp="1579831262098">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1324" height="151" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1579831262098" />
+    <state width="1324" height="151" key="GridCell.Tab.0.left" timestamp="1579831262096">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1324" height="151" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1579831262096" />
+    <state width="1324" height="151" key="GridCell.Tab.0.right" timestamp="1579831262099">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1324" height="151" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1579831262099" />
+    <state x="484" y="169" key="chooseDestDirectoryDialog" timestamp="1579830210701">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="484" y="169" key="chooseDestDirectoryDialog/0.0.1366.768@0.0.1366.768" timestamp="1579830210701" />
   </component>
 </project>

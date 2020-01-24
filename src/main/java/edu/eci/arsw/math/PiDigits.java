@@ -13,38 +13,40 @@ public class PiDigits {
     private static int DigitsPerSum = 8;
     private static double Epsilon = 1e-17;
     private static byte[] digits;
-    
+
     /**
      * Returns a range of hexadecimal digits of pi.
+     *
      * @param start The starting location of the range.
      * @param count The number of digits to return
      * @return An array containing the hexadecimal digits.
      */
-    public static byte[] getDigits(int start, int count, int n) throws InterruptedException{
+    public static byte[] getDigits(int start, int count, int threads) {
         if (start < 0) {
             throw new RuntimeException("Invalid Interval");
         }
-
         if (count < 0) {
             throw new RuntimeException("Invalid Interval");
         }
+        digits = new byte[start + count];
+        int interval = count / threads;
+        PiDigitsThread[] threadArr = new PiDigitsThread[threads];
+        for (int i = 0; i < threads; i++) {
+            threadArr[i] = new PiDigitsThread(start + (interval * i), interval);
+        }
 
-        byte[] digits = new byte[count];
-        double sum = 0;
-        ArrayList<PiThread> lista = new ArrayList<>();
-        for (int i = 0; i < n; i++) {
-            int inicio = start+((count/n)*i);
-            int fin = count/n;
-            lista.add(new PiThread(start,inicio,fin));
-        //Para cada elemento de la lista, va a inicializar cada uno de los hilos
-        }lista.forEach((trd)->{ trd.start(); });
-        for (PiThread trd :lista){
-            try{
-                trd.join();
-            }catch (InterruptedException e){
+        for (PiDigitsThread thread : threadArr) {
+            thread.start();
+        }
+
+        for (PiDigitsThread thread : threadArr) {
+            try {
+                thread.join();
+            } catch (InterruptedException e) {
                 e.printStackTrace();
             }
         }
+
         return digits;
     }
 
@@ -54,7 +56,7 @@ public class PiDigits {
     /// <param name="m"></param>
     /// <param name="n"></param>
     /// <returns></returns>
-    public static double sum(int m, int n) {
+    private static double sum(int m, int n) {
         double sum = 0;
         int d = m;
         int power = n;
@@ -109,6 +111,30 @@ public class PiDigits {
         }
 
         return result;
+    }
+
+    static class PiDigitsThread extends Thread {
+
+        private int initial, start, count;
+
+        public PiDigitsThread(int start, int count) {
+            this.start = start;
+            this.initial = start;
+            this.count = count;
+        }
+
+        public void run() {
+            double sum = 0;
+            for (int i = 0; i < count; i++) {
+                if (i % DigitsPerSum == 0) {
+                    sum = 4 * sum(1, start) - 2 * sum(4, start) - sum(5, start) - sum(6, start);
+                    start += DigitsPerSum;
+                }
+                sum = 16 * (sum - Math.floor(sum));
+                digits[initial + i] = (byte) sum;
+            }
+        }
+
     }
 
 }
