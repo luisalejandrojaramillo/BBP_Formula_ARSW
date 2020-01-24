@@ -42,5 +42,23 @@ $ mvn clean compile
 ```
 $ mvn package
 ```
+## Part III - Performance Evaluation
+From the above, implement the following sequence of experiments to calculate the million digits (hex) of PI, taking their execution times (be sure to do them on the same machine):
 
+1. Single thread. 
+2. As many threads as processing cores (have the program determine this using the Runtime API). 
+3. So many threads as double processing cores. 
+4. 200 threads.
+5. 500 threads
+
+Questions:
+
+1. According to Amdahls law, where S (n) is the theoretical performance improvement, P the parallel fraction of the algorithm, and n the number of threads, the greater n, the greater the improvement should be. Why is the best performance not achieved with the 500 threads? How does this performance compare when 200 are used?.  
+    = Los 500 Threads no son tan efectivos ya que "n"(Threads) supera al "p"(Algoritmos que pueden ser ejecutados en paralelo), entonces segun la formula, la velocidad sera menor. Cuando lo comparamos con los 200 Threads, el n se acerca mas al p, entonces por eso es mas eficiente.
+
+2. How does the solution behave using as many processing threads as cores compared to the result of using twice as much?
+    =Es mas rapida cuando utilizamos el doble, pero sobre carga mucho al equipo y lo hace poner inutilizable mientras se ejecuta. 
+
+3. According to the above, if for this problem instead of 500 threads on a single CPU, 1 wire could be used on each of 500 hypothetical machines, would Amdahls's law be better applied? If, instead, c threads were used in 500 / c distributed machines (where c is the number of cores of said machines), would it be improved? Explain your answer.
+    = Ya que aumneta la cantidad de maquinas y puedo sustribuir los hilos en ellas, entonces aumenta la cantidad de algoritmos que pueden ser ejecutados en paralelo, entonces asi no sobrecargaria un solo equipo.
     
