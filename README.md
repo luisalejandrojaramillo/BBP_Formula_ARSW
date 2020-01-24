@@ -25,13 +25,14 @@ Realizado por Carlos Andrés Castañeda y Luis Alejandro Jaramillo
       }
     }
    ```
-  * Change the beginning with start() to run(). How does the output change? Why?
-    * La salida cambia de forma en que ya no ejecuta los 3 hilos simultamneamnete (lo que sucede con el start()), si no que cuando utilizamos la instancia de run(), ejecutando los metodos por orden de ejecucion.
-
+ * Change the beginning with **start()** to **run()**. How does the output change? Why?
+ 
+   * Cunado implementamos el metodo **start()**, La salida imprime en desorden, esto se debe a que el metodo crea un hilo por cada implementación, mientras que el metodo **run()** ejecuta los metodos por orden de ejecución.
+   
 ### Compile and run instructions
 
-* Para cada una de las pruebas se implementó JUnit y Maven.
-* Proyecto creado en IntelliJ IDEA.
+* Para cada una de las pruebas se implementó **JUnit** y **Maven**.
+* Proyecto creado en **IntelliJ IDEA**.
 
 **Compiling**
 ```
